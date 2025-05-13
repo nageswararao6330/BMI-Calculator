@@ -1,0 +1,112 @@
+/* Background styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background: url('https://source.unsplash.com/featured/?healthy-food') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BMI Card styling */
+.bmi-card {
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bmi-card h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.bmi-card input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.bmi-card button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+}
+
+.bmi-card button:hover {
+  background: #0056b3;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+/* BMI Info styling */
+.bmi-info {
+  margin-top: 20px;
+  text-align: left;
+  color: white;
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bmi-info h2 {
+  color: #ff6347;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bmi-info p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bmi-info ul {
+  padding-left: 20px;
+}
+
+.bmi-info li {
+  margin-bottom: 10px;
+}
+
+.bmi-info .underweight {
+  color: #ff6347;
+}
+
+.bmi-info .normal {
+  color: #4caf50;
+}
+
+.bmi-info .overweight {
+  color: #ff9800;
+}
